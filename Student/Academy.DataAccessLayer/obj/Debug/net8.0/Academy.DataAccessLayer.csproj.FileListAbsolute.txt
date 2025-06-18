@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\API\Student\Academy.DataAccessLayer\bin\Debug\net8.0\Academy.DataAccessLayer.deps.json
+C:\Users\HP\Desktop\API\Student\Academy.DataAccessLayer\bin\Debug\net8.0\Academy.DataAccessLayer.runtimeconfig.json
+C:\Users\HP\Desktop\API\Student\Academy.DataAccessLayer\bin\Debug\net8.0\Academy.DataAccessLayer.dll
+C:\Users\HP\Desktop\API\Student\Academy.DataAccessLayer\bin\Debug\net8.0\Academy.DataAccessLayer.pdb
+C:\Users\HP\Desktop\API\Student\Academy.DataAccessLayer\obj\Debug\net8.0\Academy.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\API\Student\Academy.DataAccessLayer\obj\Debug\net8.0\Academy.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\API\Student\Academy.DataAccessLayer\obj\Debug\net8.0\Academy.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\API\Student\Academy.DataAccessLayer\obj\Debug\net8.0\Academy.DataAccessLayer.AssemblyInfo.cs
+C:\Users\HP\Desktop\API\Student\Academy.DataAccessLayer\obj\Debug\net8.0\Academy.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\API\Student\Academy.DataAccessLayer\obj\Debug\net8.0\Academy.DataAccessLayer.dll
+C:\Users\HP\Desktop\API\Student\Academy.DataAccessLayer\obj\Debug\net8.0\refint\Academy.DataAccessLayer.dll
+C:\Users\HP\Desktop\API\Student\Academy.DataAccessLayer\obj\Debug\net8.0\Academy.DataAccessLayer.pdb
+C:\Users\HP\Desktop\API\Student\Academy.DataAccessLayer\obj\Debug\net8.0\Academy.DataAccessLayer.genruntimeconfig.cache
+C:\Users\HP\Desktop\API\Student\Academy.DataAccessLayer\obj\Debug\net8.0\ref\Academy.DataAccessLayer.dll
