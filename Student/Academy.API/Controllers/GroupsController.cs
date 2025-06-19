@@ -1,8 +1,5 @@
 ﻿using Academy.BusinessLogicLayer.Dtos;
 using Academy.BusinessLogicLayer.Services.Contracts;
-using Academy.DataAccessLayer.DataContext.Entities;
-using Academy.DataAccessLayer.Repositories.Contracts;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Academy.API.Controllers

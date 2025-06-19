@@ -1,6 +1,5 @@
 ﻿using Academy.DataAccessLayer.DataContext.Entities;
 using Academy.DataAccessLayer.Repositories.Contracts;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Academy.API.Controllers

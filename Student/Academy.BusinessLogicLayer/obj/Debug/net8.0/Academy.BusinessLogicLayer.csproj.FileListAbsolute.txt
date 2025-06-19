@@ -4,3 +4,13 @@ C:\Users\HP\Desktop\API\Student\Academy.BusinessLogicLayer\obj\Debug\net8.0\Acad
 C:\Users\HP\Desktop\API\Student\Academy.BusinessLogicLayer\obj\Debug\net8.0\Academy.BusinessLogicLayer.AssemblyInfo.cs
 C:\Users\HP\Desktop\API\Student\Academy.BusinessLogicLayer\obj\Debug\net8.0\Academy.BusinessLogicLayer.csproj.CoreCompileInputs.cache
 C:\Users\HP\Desktop\API\Student\Academy.BusinessLogicLayer\obj\Debug\net8.0\Academy.BusinessLogicLayer.sourcelink.json
+C:\Users\HP\Desktop\API\Student\Academy.BusinessLogicLayer\bin\Debug\net8.0\Academy.BusinessLogicLayer.deps.json
+C:\Users\HP\Desktop\API\Student\Academy.BusinessLogicLayer\bin\Debug\net8.0\Academy.BusinessLogicLayer.dll
+C:\Users\HP\Desktop\API\Student\Academy.BusinessLogicLayer\bin\Debug\net8.0\Academy.BusinessLogicLayer.pdb
+C:\Users\HP\Desktop\API\Student\Academy.BusinessLogicLayer\bin\Debug\net8.0\Academy.DataAccessLayer.dll
+C:\Users\HP\Desktop\API\Student\Academy.BusinessLogicLayer\bin\Debug\net8.0\Academy.DataAccessLayer.pdb
+C:\Users\HP\Desktop\API\Student\Academy.BusinessLogicLayer\obj\Debug\net8.0\Academy..B32DD664.Up2Date
+C:\Users\HP\Desktop\API\Student\Academy.BusinessLogicLayer\obj\Debug\net8.0\Academy.BusinessLogicLayer.dll
+C:\Users\HP\Desktop\API\Student\Academy.BusinessLogicLayer\obj\Debug\net8.0\refint\Academy.BusinessLogicLayer.dll
+C:\Users\HP\Desktop\API\Student\Academy.BusinessLogicLayer\obj\Debug\net8.0\Academy.BusinessLogicLayer.pdb
+C:\Users\HP\Desktop\API\Student\Academy.BusinessLogicLayer\obj\Debug\net8.0\ref\Academy.BusinessLogicLayer.dll

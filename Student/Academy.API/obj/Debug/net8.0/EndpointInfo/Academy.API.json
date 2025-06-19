@@ -24,17 +24,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Group"
+                "$ref": "#/components/schemas/GroupCreateDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Group"
+                "$ref": "#/components/schemas/GroupCreateDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Group"
+                "$ref": "#/components/schemas/GroupCreateDto"
               }
             }
           }
@@ -108,17 +108,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Group"
+                "$ref": "#/components/schemas/GroupUpdateDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Group"
+                "$ref": "#/components/schemas/GroupUpdateDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Group"
+                "$ref": "#/components/schemas/GroupUpdateDto"
               }
             }
           }
@@ -149,17 +149,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Student"
+                "$ref": "#/components/schemas/StudentCreateDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Student"
+                "$ref": "#/components/schemas/StudentCreateDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Student"
+                "$ref": "#/components/schemas/StudentCreateDto"
               }
             }
           }
@@ -233,17 +233,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Student"
+                "$ref": "#/components/schemas/StudentUpdateDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Student"
+                "$ref": "#/components/schemas/StudentUpdateDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Student"
+                "$ref": "#/components/schemas/StudentUpdateDto"
               }
             }
           }
@@ -255,10 +255,10 @@
         }
       }
     },
-    "/api/Students/ONLY-STUDENT": {
+    "/api/TeacherGroupsControlller": {
       "get": {
         "tags": [
-          "Students"
+          "TeacherGroupsControlller"
         ],
         "responses": {
           "200": {
@@ -395,7 +395,24 @@
   },
   "components": {
     "schemas": {
-      "Group": {
+      "GroupCreateDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "teacherId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "teacher": {
+            "$ref": "#/components/schemas/TeacherDto"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GroupUpdateDto": {
         "type": "object",
         "properties": {
           "id": {
@@ -406,17 +423,35 @@
             "type": "string",
             "nullable": true
           },
-          "students": {
+          "teachers": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/Student"
+              "type": "integer",
+              "format": "int32"
             },
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "Student": {
+      "StudentCreateDto": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "groupId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "StudentUpdateDto": {
         "required": [
           "name"
         ],
@@ -433,9 +468,6 @@
           "groupId": {
             "type": "integer",
             "format": "int32"
-          },
-          "group": {
-            "$ref": "#/components/schemas/Group"
           }
         },
         "additionalProperties": false
@@ -452,6 +484,31 @@
           },
           "name": {
             "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TeacherDto": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "groups": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
             "nullable": true
           }
         },

@@ -33,6 +33,10 @@ namespace Academy.DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.PrimitiveCollection<string>("TeacherId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.ToTable("Groups");
@@ -77,6 +81,29 @@ namespace Academy.DataAccessLayer.Migrations
                     b.ToTable("Teachers");
                 });
 
+            modelBuilder.Entity("Academy.DataAccessLayer.DataContext.Entities.TeacherGroup", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("GroupId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TeacherId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("GroupId");
+
+                    b.HasIndex("TeacherId");
+
+                    b.ToTable("TeachersGroup");
+                });
+
             modelBuilder.Entity("Academy.DataAccessLayer.DataContext.Entities.Student", b =>
                 {
                     b.HasOne("Academy.DataAccessLayer.DataContext.Entities.Group", "Group")
@@ -86,6 +113,25 @@ namespace Academy.DataAccessLayer.Migrations
                         .IsRequired();
 
                     b.Navigation("Group");
+                });
+
+            modelBuilder.Entity("Academy.DataAccessLayer.DataContext.Entities.TeacherGroup", b =>
+                {
+                    b.HasOne("Academy.DataAccessLayer.DataContext.Entities.Group", "Group")
+                        .WithMany()
+                        .HasForeignKey("GroupId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Academy.DataAccessLayer.DataContext.Entities.Teacher", "Teacher")
+                        .WithMany()
+                        .HasForeignKey("TeacherId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Group");
+
+                    b.Navigation("Teacher");
                 });
 
             modelBuilder.Entity("Academy.DataAccessLayer.DataContext.Entities.Group", b =>

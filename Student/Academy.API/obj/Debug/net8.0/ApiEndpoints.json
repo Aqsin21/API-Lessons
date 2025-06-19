@@ -18,8 +18,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "group",
-        "Type": "Academy.DataAccessLayer.DataContext.Entities.Group",
+        "Name": "groupCreateDto",
+        "Type": "Academy.BusinessLogicLayer.Dtos.GroupCreateDto",
         "IsRequired": true
       }
     ],
@@ -71,8 +71,8 @@
         "IsRequired": true
       },
       {
-        "Name": "group",
-        "Type": "Academy.DataAccessLayer.DataContext.Entities.Group",
+        "Name": "groupUpdateDto",
+        "Type": "Academy.BusinessLogicLayer.Dtos.GroupUpdateDto",
         "IsRequired": true
       }
     ],
@@ -97,8 +97,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "student",
-        "Type": "Academy.DataAccessLayer.DataContext.Entities.Student",
+        "Name": "studentCreateDto",
+        "Type": "Academy.BusinessLogicLayer.Dtos.StudentCreateDto",
         "IsRequired": true
       }
     ],
@@ -150,17 +150,17 @@
         "IsRequired": true
       },
       {
-        "Name": "student",
-        "Type": "Academy.DataAccessLayer.DataContext.Entities.Student",
+        "Name": "studentUpdateDto",
+        "Type": "Academy.BusinessLogicLayer.Dtos.StudentUpdateDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Academy.API.Controllers.StudentsController",
-    "Method": "OnlyStudent",
-    "RelativePath": "api/Students/ONLY-STUDENT",
+    "ContainingType": "Academy.API.Controllers.TeacherGroupsControlller",
+    "Method": "GetAll",
+    "RelativePath": "api/TeacherGroupsControlller",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
