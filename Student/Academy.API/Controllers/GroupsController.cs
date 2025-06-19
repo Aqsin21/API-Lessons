@@ -1,4 +1,6 @@
-﻿using Academy.DataAccessLayer.DataContext.Entities;
+﻿using Academy.BusinessLogicLayer.Dtos;
+using Academy.BusinessLogicLayer.Services.Contracts;
+using Academy.DataAccessLayer.DataContext.Entities;
 using Academy.DataAccessLayer.Repositories.Contracts;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -9,63 +11,63 @@ namespace Academy.API.Controllers
     [ApiController]
     public class GroupsController : ControllerBase
     {
-        private readonly IGroupRepository _repository;
+        private readonly IGroupService _groupService;
 
-        public GroupsController(IGroupRepository repository)
+        public GroupsController(IGroupService groupService)
         {
-            _repository = repository;
+            _groupService = groupService;
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var groups = await _repository.GetAllAsync();
-            return Ok(groups);
+            var groupDtos = await _groupService.GetAllAsync();
+            return Ok(groupDtos);
         }
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var group = await _repository.GetByIdAsync(id);
-            if (group == null)
+            var groupDto = await _groupService.GetByIdAsync(id);
+            if (groupDto == null)
             {
                 return BadRequest("Not Found");
             }
-            return Ok(group);
+            return Ok(groupDto);
 
         }
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] Group group)
+        public async Task<IActionResult> Create([FromBody] GroupCreateDto groupCreateDto)
         {
-            if (group == null)
+            if (groupCreateDto == null)
             {
                 return BadRequest("Group data is null");
             }
-            await _repository.AddAsync(group);
+            var created=  await _groupService.AddAsync(groupCreateDto);
 
-            return CreatedAtAction(nameof(GetAll), new { id = group.Id }, group);
+            return CreatedAtAction(nameof(GetAll), new { id = created.Id }, created);
         }
 
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete([FromRoute] int id)
         {
-            await _repository.DeleteAsync(id);
+            await _groupService.DeleteAsync(id);
 
             return NoContent();
         }
 
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update([FromRoute] int id, [FromBody] Group group)
+        public async Task<IActionResult> Update([FromRoute] int id, [FromBody] GroupUpdateDto groupUpdateDto)
         {
 
-            if (id != group.Id)
+            if (id != groupUpdateDto.Id)
             {
                 return BadRequest("Not Found");
             }
-            await _repository.UpdateAsync(group);
+           var result=  await _groupService.UpdateAsync(groupUpdateDto);
 
-            return NoContent();
+            return Ok(result);
 
         }
     }

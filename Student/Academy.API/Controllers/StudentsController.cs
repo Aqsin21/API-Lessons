@@ -1,8 +1,9 @@
-﻿using Academy.DataAccessLayer.DataContext;
+﻿using Academy.BusinessLogicLayer.Dtos;
+using Academy.BusinessLogicLayer.Services.Contracts;
 using Academy.DataAccessLayer.DataContext.Entities;
 using Academy.DataAccessLayer.Repositories.Contracts;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+
 
 namespace Academy.API.Controllers
 {
@@ -10,75 +11,71 @@ namespace Academy.API.Controllers
     [ApiController]
     public class StudentsController : ControllerBase
     {
-        private readonly IStudentRepository _repository;
+        private readonly IStudentService _studentService;
 
-        public StudentsController(IStudentRepository repository)
+        public StudentsController(IStudentService studentService)
         {
-            _repository = repository;
+            _studentService = studentService;
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var students = await _repository.GetAllAsync();
-            return Ok(students);
+            var studentsDto = await _studentService.GetAllAsync();
+            return Ok(studentsDto);
         }
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var student = await _repository.GetByIdAsync(id);
-            if (student == null)
+            var studentDto = await _studentService.GetByIdAsync(id);
+            if (studentDto == null)
             {
                 return BadRequest("Not Found");
             }
-            return Ok(student);
+            return Ok(studentDto);
 
         }
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] Student student)
+        public async Task<IActionResult> Create([FromBody] StudentCreateDto studentCreateDto)
         {
-            if (student == null)
+            if (studentCreateDto == null)
             {
                 return BadRequest("Student data is null");
             }
-            await _repository.AddAsync(student);
+            var result =  await _studentService.AddAsync(studentCreateDto);
 
-            return CreatedAtAction(nameof(GetAll), new { id = student.Id }, student);
+            return CreatedAtAction(nameof(GetAll), new { id = result.Id }, studentCreateDto);
         }
 
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete([FromRoute] int id)
         {
-            await _repository.DeleteAsync(id);
+            var result = await _studentService.DeleteAsync(id);
            
-            return NoContent();
+            return Ok(result);
         }
 
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update([FromRoute] int id , [FromBody] Student student)
+        public async Task<IActionResult> Update([FromRoute] int id , [FromBody] StudentUpdateDto studentUpdateDto)
         {
           
-            if (id !=student.Id)
+            if (id !=studentUpdateDto.Id)
             {
                 return BadRequest("Not Found");
             }
-            await _repository.UpdateAsync(student);
+            var result= await _studentService.UpdateAsync(studentUpdateDto);
     
-            return NoContent();
+            return Ok(result);
               
         }
 
 
-        [HttpGet("ONLY-STUDENT")]
-        public IActionResult OnlyStudent()
-        {
-            var result = _repository.OnlyStudent();
-            return Ok(result);
-        }
+       
 
 
 
     }
 }
+

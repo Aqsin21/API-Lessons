@@ -1,4 +1,5 @@
 using Academy.DataAccessLayer;
+using Academy.BusinessLogicLayer;
 
 
 namespace Academy.API
@@ -16,6 +17,7 @@ namespace Academy.API
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.RegisterDataAccessLayerServices(builder.Configuration);
+            builder.Services.RegisterBusinessLogicLayerServices();
 
             var app = builder.Build();
             // Configure the HTTP request pipeline.

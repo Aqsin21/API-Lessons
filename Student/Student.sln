@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy.API", "Academy.API\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy.DataAccessLayer", "Academy.DataAccessLayer\Academy.DataAccessLayer.csproj", "{306E119C-A495-40F3-A560-4921CB94EB08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy.BusinessLogicLayer", "Academy.BusinessLogicLayer\Academy.BusinessLogicLayer.csproj", "{A4CF49E2-5608-4F72-B6B5-41C4163D9BC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{306E119C-A495-40F3-A560-4921CB94EB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{306E119C-A495-40F3-A560-4921CB94EB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{306E119C-A495-40F3-A560-4921CB94EB08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4CF49E2-5608-4F72-B6B5-41C4163D9BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4CF49E2-5608-4F72-B6B5-41C4163D9BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4CF49E2-5608-4F72-B6B5-41C4163D9BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4CF49E2-5608-4F72-B6B5-41C4163D9BC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{FBC32412-CAF6-4F5B-9D2A-ED8A14B6F70A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{08B4E956-CF95-4212-89B5-F3CC75E08A03} = {FBC32412-CAF6-4F5B-9D2A-ED8A14B6F70A}
 		{306E119C-A495-40F3-A560-4921CB94EB08} = {FBC32412-CAF6-4F5B-9D2A-ED8A14B6F70A}
+		{A4CF49E2-5608-4F72-B6B5-41C4163D9BC4} = {FBC32412-CAF6-4F5B-9D2A-ED8A14B6F70A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5EEBD501-0C6F-411C-8CEA-791CB0113410}

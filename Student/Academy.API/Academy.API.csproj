@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Academy.BusinessLogicLayer\Academy.BusinessLogicLayer.csproj" />
     <ProjectReference Include="..\Academy.DataAccessLayer\Academy.DataAccessLayer.csproj" />
   </ItemGroup>
 

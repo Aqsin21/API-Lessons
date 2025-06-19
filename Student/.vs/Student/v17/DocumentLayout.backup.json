@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\API\\Student\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{306E119C-A495-40F3-A560-4921CB94EB08}|Academy.DataAccessLayer\\Academy.DataAccessLayer.csproj|c:\\users\\hp\\desktop\\api\\student\\academy.dataaccesslayer\\repositories\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E119C-A495-40F3-A560-4921CB94EB08}|Academy.DataAccessLayer\\Academy.DataAccessLayer.csproj|solutionrelative:academy.dataaccesslayer\\repositories\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08B4E956-CF95-4212-89B5-F3CC75E08A03}|Academy.API\\Academy.API.csproj|c:\\users\\hp\\desktop\\api\\student\\academy.api\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08B4E956-CF95-4212-89B5-F3CC75E08A03}|Academy.API\\Academy.API.csproj|solutionrelative:academy.api\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CF49E2-5608-4F72-B6B5-41C4163D9BC4}|Academy.BusinessLogicLayer\\Academy.BusinessLogicLayer.csproj|c:\\users\\hp\\desktop\\api\\student\\academy.businesslogiclayer\\businesslogiclayerserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4CF49E2-5608-4F72-B6B5-41C4163D9BC4}|Academy.BusinessLogicLayer\\Academy.BusinessLogicLayer.csproj|solutionrelative:academy.businesslogiclayer\\businesslogiclayerserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08B4E956-CF95-4212-89B5-F3CC75E08A03}|Academy.API\\Academy.API.csproj|c:\\users\\hp\\desktop\\api\\student\\academy.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08B4E956-CF95-4212-89B5-F3CC75E08A03}|Academy.API\\Academy.API.csproj|solutionrelative:academy.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GroupRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\API\\Student\\Academy.DataAccessLayer\\Repositories\\GroupRepository.cs",
+              "RelativeDocumentMoniker": "Academy.DataAccessLayer\\Repositories\\GroupRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\API\\Student\\Academy.DataAccessLayer\\Repositories\\GroupRepository.cs",
+              "RelativeToolTip": "Academy.DataAccessLayer\\Repositories\\GroupRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:37:12.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BusinessLogicLayerServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\API\\Student\\Academy.BusinessLogicLayer\\BusinessLogicLayerServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Academy.BusinessLogicLayer\\BusinessLogicLayerServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\API\\Student\\Academy.BusinessLogicLayer\\BusinessLogicLayerServiceRegistration.cs",
+              "RelativeToolTip": "Academy.BusinessLogicLayer\\BusinessLogicLayerServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:32:24.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GroupsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\API\\Student\\Academy.API\\Controllers\\GroupsController.cs",
+              "RelativeDocumentMoniker": "Academy.API\\Controllers\\GroupsController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\API\\Student\\Academy.API\\Controllers\\GroupsController.cs",
+              "RelativeToolTip": "Academy.API\\Controllers\\GroupsController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAA5wEUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:26:00.16Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\API\\Student\\Academy.API\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Academy.API\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\API\\Student\\Academy.API\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Academy.API\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAkwDcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:17:59.629Z",
+              "EditorCaption": ""
             }
           ]
         },

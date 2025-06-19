@@ -12,3 +12,4 @@ C:\Users\HP\Desktop\API\Student\Academy.DataAccessLayer\obj\Debug\net8.0\refint\
 C:\Users\HP\Desktop\API\Student\Academy.DataAccessLayer\obj\Debug\net8.0\Academy.DataAccessLayer.pdb
 C:\Users\HP\Desktop\API\Student\Academy.DataAccessLayer\obj\Debug\net8.0\Academy.DataAccessLayer.genruntimeconfig.cache
 C:\Users\HP\Desktop\API\Student\Academy.DataAccessLayer\obj\Debug\net8.0\ref\Academy.DataAccessLayer.dll
+C:\Users\HP\Desktop\API\Student\Academy.DataAccessLayer\obj\Debug\net8.0\Academy.DataAccessLayer.sourcelink.json

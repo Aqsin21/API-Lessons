@@ -1,0 +1,6 @@
+C:\Users\HP\Desktop\API\Student\Academy.BusinessLogicLayer\obj\Debug\net8.0\Academy.BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\API\Student\Academy.BusinessLogicLayer\obj\Debug\net8.0\Academy.BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\API\Student\Academy.BusinessLogicLayer\obj\Debug\net8.0\Academy.BusinessLogicLayer.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\API\Student\Academy.BusinessLogicLayer\obj\Debug\net8.0\Academy.BusinessLogicLayer.AssemblyInfo.cs
+C:\Users\HP\Desktop\API\Student\Academy.BusinessLogicLayer\obj\Debug\net8.0\Academy.BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\API\Student\Academy.BusinessLogicLayer\obj\Debug\net8.0\Academy.BusinessLogicLayer.sourcelink.json
