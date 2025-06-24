@@ -1,10 +1,11 @@
 ﻿using Academy.DataAccessLayer.DataContext.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 namespace Academy.DataAccessLayer.DataContext
 {
-    public class AppDbContext :DbContext
+    public class AppDbContext :IdentityDbContext<AppUser>
     {
-        public AppDbContext(DbContextOptions options) : base(options) {}
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) {}
         public DbSet<Student > Students { get; set; }
         public DbSet<Teacher> Teachers { get; set; }
         public DbSet<Group> Groups { get; set; }

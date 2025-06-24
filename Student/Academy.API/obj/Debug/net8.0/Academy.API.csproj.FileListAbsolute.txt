@@ -175,3 +175,11 @@ C:\Users\HP\Desktop\API\Student\Academy.API\obj\Debug\net8.0\Academy.API.sourcel
 C:\Users\HP\Desktop\API\Student\Academy.API\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\HP\Desktop\API\Student\Academy.API\bin\Debug\net8.0\Academy.BusinessLogicLayer.dll
 C:\Users\HP\Desktop\API\Student\Academy.API\bin\Debug\net8.0\Academy.BusinessLogicLayer.pdb
+C:\Users\HP\Desktop\API\Student\Academy.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\HP\Desktop\API\Student\Academy.API\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\HP\Desktop\API\Student\Academy.API\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\HP\Desktop\API\Student\Academy.API\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\HP\Desktop\API\Student\Academy.API\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+C:\Users\HP\Desktop\API\Student\Academy.API\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\HP\Desktop\API\Student\Academy.API\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+C:\Users\HP\Desktop\API\Student\Academy.API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll

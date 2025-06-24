@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "Academy.API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "Academy.BusinessLogicLayer.Dtos.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Academy.API.Controllers.GroupsController",
     "Method": "GetAll",
     "RelativePath": "api/Groups",
@@ -158,16 +174,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Academy.API.Controllers.TeacherGroupsControlller",
-    "Method": "GetAll",
-    "RelativePath": "api/TeacherGroupsControlller",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "Academy.API.Controllers.TeachersController",
     "Method": "GetAll",
     "RelativePath": "api/Teachers",
@@ -241,6 +247,48 @@
       {
         "Name": "teacher",
         "Type": "Academy.DataAccessLayer.DataContext.Entities.Teacher",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academy.API.Controllers.UserController",
+    "Method": "GetUsers",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academy.API.Controllers.UserController",
+    "Method": "CreateUser",
+    "RelativePath": "api/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userCreateDto",
+        "Type": "Academy.BusinessLogicLayer.Dtos.UserCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Academy.API.Controllers.UserController",
+    "Method": "GetUserById",
+    "RelativePath": "api/User/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

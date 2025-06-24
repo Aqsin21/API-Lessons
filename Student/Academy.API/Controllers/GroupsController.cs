@@ -32,6 +32,7 @@ namespace Academy.API.Controllers
             return Ok(groupDto);
 
         }
+
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] GroupCreateDto groupCreateDto)
         {
