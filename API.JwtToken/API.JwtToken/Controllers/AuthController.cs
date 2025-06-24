@@ -12,31 +12,28 @@ namespace API.JwtToken.Controllers
     public class AuthController : ControllerBase
     {
         private readonly AuthService _authService;
-        private readonly UserManager<AppUser> _userManager;
+       
 
-        public AuthController(AuthService authService, UserManager<AppUser> userManager)
+        public AuthController(AuthService authService)
         {
             _authService = authService;
-            _userManager = userManager;
+           
         }
 
         [HttpPost]
         public async Task<IActionResult> Login([FromBody] LoginDto loginDto)
         {
-            var user = await _userManager.FindByNameAsync(loginDto.UserName);
-
-            if (user == null || !await _userManager.CheckPasswordAsync(user, loginDto.Password))
+            if (loginDto.UserName != "admin" || loginDto.Password != "1234")
             {
                 return Unauthorized("Invalid username or password.");
             }
 
             var jwtResponseModel = await _authService.CreateToken(new JwtRequestModel
             {
-                Username = user.Username
-               
-
-
+                Username = loginDto.UserName
             });
+
+           
 
             return Ok(jwtResponseModel);
         }

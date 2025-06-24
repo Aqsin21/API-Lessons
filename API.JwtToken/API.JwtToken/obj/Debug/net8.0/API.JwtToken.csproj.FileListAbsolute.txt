@@ -42,3 +42,4 @@ C:\Users\HP\Desktop\APILesson\API.JwtToken\API.JwtToken\obj\Debug\net8.0\refint\
 C:\Users\HP\Desktop\APILesson\API.JwtToken\API.JwtToken\obj\Debug\net8.0\API.JwtToken.pdb
 C:\Users\HP\Desktop\APILesson\API.JwtToken\API.JwtToken\obj\Debug\net8.0\API.JwtToken.genruntimeconfig.cache
 C:\Users\HP\Desktop\APILesson\API.JwtToken\API.JwtToken\obj\Debug\net8.0\ref\API.JwtToken.dll
+C:\Users\HP\Desktop\APILesson\API.JwtToken\API.JwtToken\obj\Debug\net8.0\API.JwtToken.sourcelink.json

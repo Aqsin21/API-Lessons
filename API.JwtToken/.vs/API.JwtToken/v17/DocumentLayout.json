@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\APILesson\\API.JwtToken\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25581F42-68A9-497B-B5A1-CCA9BF4F0461}|API.JwtToken\\API.JwtToken.csproj|c:\\users\\hp\\desktop\\apilesson\\api.jwttoken\\api.jwttoken\\sendrequestwithjwt.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25581F42-68A9-497B-B5A1-CCA9BF4F0461}|API.JwtToken\\API.JwtToken.csproj|solutionrelative:api.jwttoken\\sendrequestwithjwt.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{25581F42-68A9-497B-B5A1-CCA9BF4F0461}|API.JwtToken\\API.JwtToken.csproj|c:\\users\\hp\\desktop\\apilesson\\api.jwttoken\\api.jwttoken\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25581F42-68A9-497B-B5A1-CCA9BF4F0461}|API.JwtToken\\API.JwtToken.csproj|solutionrelative:api.jwttoken\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{25581F42-68A9-497B-B5A1-CCA9BF4F0461}|API.JwtToken\\API.JwtToken.csproj|c:\\users\\hp\\desktop\\apilesson\\api.jwttoken\\api.jwttoken\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25581F42-68A9-497B-B5A1-CCA9BF4F0461}|API.JwtToken\\API.JwtToken.csproj|solutionrelative:api.jwttoken\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{25581F42-68A9-497B-B5A1-CCA9BF4F0461}|API.JwtToken\\API.JwtToken.csproj|c:\\users\\hp\\desktop\\apilesson\\api.jwttoken\\api.jwttoken\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25581F42-68A9-497B-B5A1-CCA9BF4F0461}|API.JwtToken\\API.JwtToken.csproj|solutionrelative:api.jwttoken\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25581F42-68A9-497B-B5A1-CCA9BF4F0461}|API.JwtToken\\API.JwtToken.csproj|c:\\users\\hp\\desktop\\apilesson\\api.jwttoken\\api.jwttoken\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25581F42-68A9-497B-B5A1-CCA9BF4F0461}|API.JwtToken\\API.JwtToken.csproj|solutionrelative:api.jwttoken\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25581F42-68A9-497B-B5A1-CCA9BF4F0461}|API.JwtToken\\API.JwtToken.csproj|c:\\users\\hp\\desktop\\apilesson\\api.jwttoken\\api.jwttoken\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{25581F42-68A9-497B-B5A1-CCA9BF4F0461}|API.JwtToken\\API.JwtToken.csproj|solutionrelative:api.jwttoken\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25581F42-68A9-497B-B5A1-CCA9BF4F0461}|API.JwtToken\\API.JwtToken.csproj|c:\\users\\hp\\desktop\\apilesson\\api.jwttoken\\api.jwttoken\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,20 +31,12 @@
       "RelativeMoniker": "D:0:0:{25581F42-68A9-497B-B5A1-CCA9BF4F0461}|API.JwtToken\\API.JwtToken.csproj|solutionrelative:api.jwttoken\\dtos\\jwtrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25581F42-68A9-497B-B5A1-CCA9BF4F0461}|API.JwtToken\\API.JwtToken.csproj|c:\\users\\hp\\desktop\\apilesson\\api.jwttoken\\api.jwttoken\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25581F42-68A9-497B-B5A1-CCA9BF4F0461}|API.JwtToken\\API.JwtToken.csproj|solutionrelative:api.jwttoken\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{25581F42-68A9-497B-B5A1-CCA9BF4F0461}|API.JwtToken\\API.JwtToken.csproj|c:\\users\\hp\\desktop\\apilesson\\api.jwttoken\\api.jwttoken\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25581F42-68A9-497B-B5A1-CCA9BF4F0461}|API.JwtToken\\API.JwtToken.csproj|solutionrelative:api.jwttoken\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25581F42-68A9-497B-B5A1-CCA9BF4F0461}|API.JwtToken\\API.JwtToken.csproj|c:\\users\\hp\\desktop\\apilesson\\api.jwttoken\\api.jwttoken\\api.jwttoken.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{25581F42-68A9-497B-B5A1-CCA9BF4F0461}|API.JwtToken\\API.JwtToken.csproj|solutionrelative:api.jwttoken\\api.jwttoken.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25581F42-68A9-497B-B5A1-CCA9BF4F0461}|API.JwtToken\\API.JwtToken.csproj|c:\\users\\hp\\desktop\\apilesson\\api.jwttoken\\api.jwttoken\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{25581F42-68A9-497B-B5A1-CCA9BF4F0461}|API.JwtToken\\API.JwtToken.csproj|solutionrelative:api.jwttoken\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,20 +58,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SendRequestWithJwt.html",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\APILesson\\API.JwtToken\\API.JwtToken\\SendRequestWithJwt.html",
-              "RelativeDocumentMoniker": "API.JwtToken\\SendRequestWithJwt.html",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\APILesson\\API.JwtToken\\API.JwtToken\\SendRequestWithJwt.html",
-              "RelativeToolTip": "API.JwtToken\\SendRequestWithJwt.html",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFwAAAACAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\APILesson\\API.JwtToken\\API.JwtToken\\index.html",
+              "RelativeDocumentMoniker": "API.JwtToken\\index.html",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\APILesson\\API.JwtToken\\API.JwtToken\\index.html",
+              "RelativeToolTip": "API.JwtToken\\index.html",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-06-24T15:43:24.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\APILesson\\API.JwtToken\\API.JwtToken\\Dtos\\LoginDto.cs",
               "RelativeDocumentMoniker": "API.JwtToken\\Dtos\\LoginDto.cs",
@@ -84,13 +84,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "JwtRequestModel.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\APILesson\\API.JwtToken\\API.JwtToken\\Dtos\\JwtRequestModel.cs",
               "RelativeDocumentMoniker": "API.JwtToken\\Dtos\\JwtRequestModel.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\APILesson\\API.JwtToken\\API.JwtToken\\Dtos\\JwtRequestModel.cs",
               "RelativeToolTip": "API.JwtToken\\Dtos\\JwtRequestModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-24T15:37:11.525Z",
               "EditorCaption": ""
@@ -103,27 +103,27 @@
               "RelativeDocumentMoniker": "API.JwtToken\\Services\\AuthService.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\APILesson\\API.JwtToken\\API.JwtToken\\Services\\AuthService.cs",
               "RelativeToolTip": "API.JwtToken\\Services\\AuthService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAwCEAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-24T15:36:02.414Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\APILesson\\API.JwtToken\\API.JwtToken\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "API.JwtToken\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\APILesson\\API.JwtToken\\API.JwtToken\\Controllers\\AuthController.cs",
               "RelativeToolTip": "API.JwtToken\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAQwCcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-24T15:25:25.823Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\APILesson\\API.JwtToken\\API.JwtToken\\Entities\\AppUser.cs",
               "RelativeDocumentMoniker": "API.JwtToken\\Entities\\AppUser.cs",
@@ -131,47 +131,45 @@
               "RelativeToolTip": "API.JwtToken\\Entities\\AppUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T15:22:48.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T15:22:48.656Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\APILesson\\API.JwtToken\\API.JwtToken\\Program.cs",
               "RelativeDocumentMoniker": "API.JwtToken\\Program.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\APILesson\\API.JwtToken\\API.JwtToken\\Program.cs",
               "RelativeToolTip": "API.JwtToken\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwEQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-24T15:14:08.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\APILesson\\API.JwtToken\\API.JwtToken\\appsettings.json",
               "RelativeDocumentMoniker": "API.JwtToken\\appsettings.json",
               "ToolTip": "C:\\Users\\HP\\Desktop\\APILesson\\API.JwtToken\\API.JwtToken\\appsettings.json",
               "RelativeToolTip": "API.JwtToken\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-24T15:12:14.283Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "API.JwtToken",
+              "DocumentIndex": 8,
+              "Title": "API.JwtToken.csproj",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\APILesson\\API.JwtToken\\API.JwtToken\\API.JwtToken.csproj",
               "RelativeDocumentMoniker": "API.JwtToken\\API.JwtToken.csproj",
               "ToolTip": "C:\\Users\\HP\\Desktop\\APILesson\\API.JwtToken\\API.JwtToken\\API.JwtToken.csproj",
               "RelativeToolTip": "API.JwtToken\\API.JwtToken.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-24T15:11:16.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T15:11:16.572Z"
             }
           ]
         },
